@@ -1,0 +1,9 @@
+**/target
+.settings/
+.project
+.classpath
+/test-output/
+/logs/
+/screenshots/
+*.exe
+.DS_Store

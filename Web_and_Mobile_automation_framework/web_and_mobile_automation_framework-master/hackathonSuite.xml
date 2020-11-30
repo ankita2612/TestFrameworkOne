@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="user 1">
+		<parameter name="browser" value="chrome" />
+		<parameter name="propPath" value="/config/config.properties" />
+		<parameter name="studentEmail"
+			value="palash+130@whitehatjr.com" />
+		<parameter name="studentNumber" value="2133830038" />
+		<parameter name="grade" value="3" />
+		<classes>
+			<class name="tests.hackathon.RegisterStudentOnHackathon" />
+		</classes>
+	</test>
+</suite>

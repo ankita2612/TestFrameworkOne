@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="user 1">
+		<parameter name="browser" value="chrome" />
+		<parameter name="propPath" value="/config/config.properties" />
+		<parameter name="studentEmail"
+			value="palash+12@whitehatjr.com" />
+		<parameter name="studentNumber" value="0944130038" />
+		<parameter name="grade" value="4" />
+		<parameter name="gradeValue" value="7" /> <!-- values = 1, 2, 4, 7, 10 -->
+		<classes>
+			<class name="tests.sanitySuite.StudentRegistration" />
+		</classes>
+	</test>
+	<test thread-count="5" name="user 2">
+		<parameter name="browser" value="chrome" />
+		<parameter name="propPath" value="/config/config.properties" />
+		<parameter name="studentEmail"
+			value="palash+13@whitehatjr.com" />
+		<parameter name="studentNumber" value="0844130038" />
+		<parameter name="grade" value="4" />
+		<parameter name="gradeValue" value="7" /> <!-- values = 1, 2, 4, 7, 10 -->
+		<classes>
+			<class name="tests.sanitySuite.StudentRegistration" />
+		</classes>
+	</test>
+	<test thread-count="5" name="user 3">
+		<parameter name="browser" value="chrome" />
+		<parameter name="propPath" value="/config/config.properties" />
+		<parameter name="studentEmail"
+			value="palash+14@whitehatjr.com" />
+		<parameter name="studentNumber" value="0554130038" />
+		<parameter name="grade" value="4" />
+		<parameter name="gradeValue" value="7" /> <!-- values = 1, 2, 4, 7, 10 -->
+		<classes>
+			<class name="tests.sanitySuite.StudentRegistration" />
+		</classes>
+	</test>
+	<test thread-count="5" name="user 4">
+		<parameter name="browser" value="chrome" />
+		<parameter name="propPath" value="/config/config.properties" />
+		<parameter name="studentEmail"
+			value="palash+15@whitehatjr.com" />
+		<parameter name="studentNumber" value="0144130038" />
+		<parameter name="grade" value="4" />
+		<parameter name="gradeValue" value="7" /> <!-- values = 1, 2, 4, 7, 10 -->
+		<classes>
+			<class name="tests.sanitySuite.StudentRegistration" />
+		</classes>
+	</test>
+</suite>

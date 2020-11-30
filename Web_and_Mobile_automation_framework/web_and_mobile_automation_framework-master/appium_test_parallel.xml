@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+	<!-- <test name="Test-on-Moto">
+		<parameter name="propPath" value="/config/config.properties"/>
+		<parameter name="excelPath" value="/config/testData.xls"/>
+		<parameter name="loginUsing" value="phoneNum"/>
+		<parameter name="dwnld_quality" value="better"/>
+		<parameter name="index" value="1" />
+		<parameter name="sheet" value="0"/>
+		<parameter name="x" value="300" />
+		<parameter name="y" value="940" />
+		<parameter name="z" value="440" />
+		<classes>
+			<class name="tests.zee5.ConnectToSB_loginZee5" />
+		</classes>
+	</test> -->
+	<test name="Test-on-Nokia">
+		<parameter name="appPackage" value="com.graymatrix.did"/>
+		<parameter name="appActivity" value="com.graymatrix.did.splash.SplashActivity"/>
+		<parameter name="propPath" value="/config/config.properties"/>
+		<parameter name="excelPath" value="/config/testData.xls"/>
+		<parameter name="loginUsing" value="phoneNum"/>
+		<parameter name="dwnld_quality" value="better"/>
+		<parameter name="index" value="2" />
+		<parameter name="sheet" value="0"/>
+		<parameter name="x" value="300" />
+		<parameter name="y" value="900" />
+		<parameter name="z" value="500" />
+		<classes>
+			<class name="tests.zee5.ConnectToSB_loginZee5" />
+		</classes>
+	</test>
+<!-- 	<test name="Test-on-Moto-G6">
+		Appium Port=5010
+		<parameter name="propPath" value="/config/config.properties"/>
+		<parameter name="excelPath" value="/config/testData.xls"/>
+		<parameter name="loginUsing" value="phoneNum"/>
+		<parameter name="dwnld_quality" value="better"/>
+		<parameter name="index" value="5" />
+		<parameter name="sheet" value="0"/>
+		<parameter name="x" value="300" />
+		<parameter name="y" value="900" />
+		<parameter name="z" value="460" />
+		<classes>
+			<class name="tests.zee5.Launch_App_NavigateTo_Zee5_ListToWatch" />
+			<class name="tests.zee5.NavigateToZee5_homePage" />
+			<class name="tests.zee5.SearchQueryOnZee5" />
+		</classes>
+	</test> -->
+	<!-- <test name="Test-on-Nokia-1">
+		USB hub Port=3, Appium Port=4770
+		<parameter name="propPath" value="/config/config.properties"/>
+		<parameter name="excelPath" value="/config/testData.xls"/>
+		<parameter name="loginUsing" value="emailID"/>
+		<parameter name="dwnld_quality" value="better"/>
+		<parameter name="index" value="6" />
+		<parameter name="sheet" value="0"/>
+		<parameter name="x" value="300" />
+		<parameter name="y" value="700" />
+		<parameter name="z" value="600" />
+		<classes>
+			<class name="tests.zee5.ConnectToSB_loginZee5" />
+		</classes>
+	</test> -->
+	<!-- <test name="Test-on-OnePlus-6T">
+		Appium Port=4780
+		<parameter name="propPath" value="/config/config.properties"/>
+		<parameter name="excelPath" value="/config/testData.xls"/>
+		<parameter name="loginUsing" value="emailID"/>
+		<parameter name="dwnld_quality" value="better"/>
+		<parameter name="index" value="7" />
+		<parameter name="sheet" value="0"/>
+		<parameter name="x" value="300" />
+		<parameter name="y" value="700" />
+		<parameter name="z" value="500" />
+		<classes>
+			<class name="tests.zee5.ConnectToSB_loginZee5" />
+		</classes>
+	</test> -->
+</suite>

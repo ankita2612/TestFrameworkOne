@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test-on-Nokia">
+		<parameter name="appPackage" value="com.sboxnw.freeplay" />
+		<parameter name="appActivity"
+			value="com.sboxnw.freeplay.activities.SplashActivity" />
+		<parameter name="propPath" value="/config/config.properties" />
+		<parameter name="excelPath" value="/config/testData.xls" />
+		<parameter name="index" value="2" />
+		<parameter name="sheet" value="0" />
+		<parameter name="x" value="300" />
+		<parameter name="y" value="900" />
+		<parameter name="z" value="500" />
+		<classes>
+			<class name="tests.sugarbox.LoginSB" />
+			<class name="tests.sugarbox.PlayAndDownloadContent" />
+		</classes>
+	</test>
+</suite>
