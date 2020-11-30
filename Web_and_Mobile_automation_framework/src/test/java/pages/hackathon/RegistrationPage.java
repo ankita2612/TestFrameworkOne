@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 import utils.SeleniumUtils;
 
 public class RegistrationPage extends SeleniumUtils {
-//
+//test
 	public static class RegistrationPage_locators {
 
 		public static final By studentName = By.name("studentName");
