@@ -5,14 +5,14 @@ import org.openqa.selenium.By;
 import utils.SeleniumUtils;
 
 public class RegistrationPage extends SeleniumUtils {
-//
-	public static class RegistrationPage_locators {
+//test merge branch ter
+	public static class  RegistrationPage_locators {
 
 		public static final By studentName = By.name("studentName");
 		public static final By parentName = By.name("parentName");
 		public static final By emailTextBox = By.name("email");
 		public static final By mobileTextBox = By.name("mobile");
-		public static final By yesRadioBtn = By.xpath("//label[contains(text(), 'Yes')]");
+		public static final By yesRadioBtn = By.xpath("//label[contains(text(), 'Yess')]");
 		public static final By createAccount = By.xpath("//button[contains(text(), 'Create Account to Play')]");
 		public static final By grade = By.xpath("(//div[contains(@class, 'FormikSelectGrades')])");
 
